@@ -1,0 +1,42 @@
+# Java Build
+target/
+*.class
+*.jar
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+.maven/
+maven/
+build.log
+build_*.log
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.project/
+.classpath
+
+# Minecraft Server stuff (Local testing)
+logs/
+world/
+world_nether/
+world_the_end/
+plugins/
+*.db
+auth.yml
+permissions.yml
+config.yml
+
+# Privacy: Hide local paths/logs
+.gemini/
+.system_generated/
+build_modern.log
+build_legacy.log
+build_legacy_v2.log
+build_legacy_v3.log
+build_legacy_final.log
+build_modern_final.log

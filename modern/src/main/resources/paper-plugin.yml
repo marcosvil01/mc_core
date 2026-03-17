@@ -1,0 +1,16 @@
+name: MC-Core-v2
+version: 2.0
+main: me.marco.core.v2.CoreV2
+api-version: 1.20
+commands:
+  core:
+    description: Comandos principales de MC-Core v2
+    usage: /core <menu|reload>
+  premium:
+    description: Activar modo premium para saltar login
+  vanish:
+    description: Ocultarse de otros (Admin)
+  freeze:
+    description: Congelar a un jugador (Admin)
+  spectate:
+    description: Modo Espectador rápido (Admin)
